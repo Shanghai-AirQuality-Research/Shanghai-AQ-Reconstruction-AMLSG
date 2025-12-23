@@ -1,5 +1,3 @@
-# Shanghai-AQ-Reconstruction-AMLSG
-# Official implementation of the AMLSG framework for Shanghai air quality reconstruction (2014-2025)
 # High-Resolution Spatio-Temporal Air Quality Inventory for Shanghai (2014–2025)
 
 ## Overview
@@ -25,3 +23,32 @@ The project is organized as follows:
 ├── data/               # Sample subsets for demonstration
 ├── main_pipeline.py    # Execution script for peer review verification
 └── requirements.txt    # Python dependencies
+
+Getting Started
+
+Prerequisites
+Python 3.8+
+AutoGluon 0.8.2+
+PyTorch
+Pandas, Numpy
+
+Installation
+
+git clone [https://github.com/Shanghai-AirQuality-Research/Shanghai-AQ-Reconstruction-AMLSG.git](https://github.com/Shanghai-AirQuality-Research/Shanghai-AQ-Reconstruction-AMLSG.git)
+cd Shanghai-AQ-Reconstruction-AMLSG
+pip install -r requirements.txt
+
+Usage
+
+Run the demonstration script to initialize the model pipeline:
+python main_pipeline.py
+
+Citation
+If you utilize this code or dataset, please cite our paper:
+[Your Name], et al. "A High-Resolution Spatio-Temporal Inventory of Air Quality in Shanghai (2014–2025) Reconstructed via Hierarchical Multi-Layer Stacked Generalization." [Journal Name], 2025.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
