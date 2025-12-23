@@ -20,7 +20,10 @@ The project is organized as follows:
 │   ├── stage1_temp.py  # Stage I: Temporal Backcasting module
 │   ├── stage2_spatial.py # Stage II: Spatial Downscaling module
 │   └── stage3_hybrid.py  # Stage III: Hybrid Anchor module
-├── data/               # Sample subsets for demonstration
+├── data/               # Spatio-temporal inventory datasets
+│   ├── city_level_complete_inventory.csv     # Reconstructed city-level indicators
+│   ├── district_level_complete_inventory.csv # Reconstructed district-level indicators
+│   └── raw_dataset.xlsx                      # Original raw monitoring records
 ├── main_pipeline.py    # Execution script for peer review verification
 └── requirements.txt    # Python dependencies
 
